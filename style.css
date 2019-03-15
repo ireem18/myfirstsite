@@ -1,0 +1,150 @@
+just*{
+
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.img-oval{
+    border-radius: 50%;
+}
+
+img{
+    border-radius: 10px;
+}
+.menu-container{
+    color:black;
+    background-color: #c7202c;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.menu{
+    font-size: 13;
+    width:900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.solkısım{
+    display: flex;
+    justify-content: flex-start;
+}
+.anasayfa,
+.hakkımda,
+.iletisim{
+    margin-right: 10px;
+}
+.date{
+    margin-left: 540px;
+
+}
+
+
+.baslik-container{
+    
+    color:black;
+    background-color: #44403f;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.baslik{
+
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 4px;
+}
+
+.baslik-photo-item{
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 250px;
+    height: 250px;
+    justify-content: space-around;
+    margin:40px;
+    align-items: center;
+    border-radius:50%;
+  
+}
+h2{
+    font-family: 'Lobster', cursive; 
+}
+
+.baslik-bilgi-item{
+    
+    width:550px;
+    height: 350px;
+    margin:10px;
+   
+}
+
+
+.photo-grid-container{
+
+    display: flex;
+    justify-content: center;
+    color:black;
+    background-color: #c7202c;
+    height: 350px;
+
+    
+}
+
+.photo-grid{
+    padding:7px;
+    width:900px;
+    display: flex;
+    align-self:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+
+.photo-grid-item{
+    
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.first-item{
+    order:1; 
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.footer-item{
+    background-color: #696965;
+    flex:1;
+    height: 50px;
+}
+.footer-two{
+    flex:3;
+    text-align: center;
+}
+
+.footer-one{
+    background-color:#44403f;
+}
+
+.footer-three{
+    background-color:#44403f;
+}
